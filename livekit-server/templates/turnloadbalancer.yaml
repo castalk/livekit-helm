@@ -10,6 +10,7 @@ metadata:
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
+  externalTrafficPolicy: {{ default "Local" .Values.livekit.turn.serviceExternalTrafficPolicy }}
   type: {{ default "LoadBalancer" .Values.livekit.turn.serviceType }}
   ports:
     - port: 443
