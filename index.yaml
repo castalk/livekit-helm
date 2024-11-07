@@ -3,6 +3,19 @@ entries:
   livekit-server:
   - apiVersion: v2
     appVersion: v1.8.0
+    created: "2024-11-07T10:32:01.920500971Z"
+    description: Real-time infrastructure for developers. LiveKit is the open source
+      stack for streaming audio, video, and data.
+    digest: 6cdc4d8956dccea5b742cffa3ed04409239a185bf183720ac95c243e34d350fa
+    name: livekit-server
+    sources:
+    - https://github.com/livekit/livekit
+    type: application
+    urls:
+    - https://github.com/castalk/livekit-helm/releases/download/livekit-server-1.8.2/livekit-server-1.8.2.tgz
+    version: 1.8.2
+  - apiVersion: v2
+    appVersion: v1.8.0
     created: "2024-11-07T08:29:31.187302312Z"
     description: Real-time infrastructure for developers. LiveKit is the open source
       stack for streaming audio, video, and data.
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://github.com/castalk/livekit-helm/releases/download/livekit-server-1.8.1/livekit-server-1.8.1.tgz
     version: 1.8.1
-generated: "2024-11-07T08:29:31.187307422Z"
+generated: "2024-11-07T10:32:01.920508385Z"
